@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_bg"
+    android:fitsSystemWindows="true"
+    tools:context="com.anenn.demo.MainActivity">
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="@string/pass_code"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <com.anenn.passcode.PassCodeView
+        android:id="@+id/passCodeView"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/tvTip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:gravity="center_vertical"
+        app:circleColor="@color/passCode_circle_color"
+        app:circleRadius="5dp"
+        app:editable="false"
+        app:passCodeLength="4"
+        app:strokeColor="@color/passCode_stroke_color"
+        app:strokeWidth="1.5dp" />
+
+    <com.anenn.passcode.InputMethodView
+        android:id="@+id/inputMethodView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="passCode_stroke_color">#BDDCEE</color>
+    <color name="passCode_circle_color">#ffffff</color>
+</resources>

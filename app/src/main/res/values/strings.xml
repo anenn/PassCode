@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Passcode</string>
+    <string name="pass_code">请输入安全锁密码</string>
+</resources>

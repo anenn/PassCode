@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PassCodeView">
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="passCodeLength" format="integer" />
+        <attr name="autoClean" format="boolean" />
+        <attr name="editable" format="boolean" />
+    </declare-styleable>
+</resources>
